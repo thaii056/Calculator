@@ -15,7 +15,7 @@ namespace Calculator1
         {
             int a= 10,b =15;
             InitializeComponent();
-            if (a == b || a >=b)
+            if (a == b || a<b || a >=b)
                 b=a + b ;
         }
     }
