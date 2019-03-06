@@ -13,7 +13,10 @@ namespace Calculator1
     {
         public Form1()
         {
+            int a = 10, b = 15;
             InitializeComponent();
+            if (a == b || b +1 <=a)
+                b = a + b;
         }
     }
 }
